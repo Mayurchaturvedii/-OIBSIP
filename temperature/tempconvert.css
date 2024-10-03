@@ -1,0 +1,85 @@
+body {
+    background-image: url(tempconbackground.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color:#fff; */
+    margin: 0;
+}
+.outercontainer{
+    background-color: transparent;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    padding: 5px;
+    position: relative;
+    left: 25%;
+    top: 25%;
+    border: 1px solid rgba(255,255,255,.5);
+    /* box-shadow: 10px 10px 16px black; */
+    border-radius: 3px;
+    backdrop-filter: blur(3px);
+}
+/* .container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+h1 {
+    text-decoration: wavy;
+    color:rgb(133, 5, 133);
+    margin-bottom: 20px;
+    text-shadow: 1px 1px black;
+}
+
+.converter {
+    color: rgb(133, 5, 133);
+    text-shadow: 0.5px 0.5px black;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid rgba(255,255,255,.5) ; */
+    border-radius: 3px;
+}
+
+.input-group {
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+}
+#btn{
+    height: 40px;
+    width: 90px;
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 10px;
+    box-shadow: 0 10px #999;
+}
+#btn:hover{
+    background-color:#3e8e41;
+   
+}
+
+#btn:active{
+    background-color:#3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
