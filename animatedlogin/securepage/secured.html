@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secured Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="secured-box">
+            <h2>Welcome to the secured page!</h2>
+            <p>You're successfully logged in.</p>
+            <button id="logout-button">Logout</button>
+        </div>
+    </div>
+
+    <script>
+        // Handle logout
+        document.getElementById('logout-button').addEventListener('click', function() {
+            alert('Logging out...');
+            window.location.href = '../index.html'; // Redirect back to the login page
+        });
+    </script>
+</body>
+</html>
