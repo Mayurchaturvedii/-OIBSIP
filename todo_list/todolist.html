@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="todolist.css" />
+    <script defer src="/loginpageJS/index.js"></script>
+  </head>
+  <body>
+    <div id="allcontainer">
+      <div id="upperbox">
+        <h1>Todo App</h1>
+      </div>
+      <div id="middlebox">
+        <h3>Enter Task</h3>
+        <input type="text" class="todotaker" placeholder="add todo" />
+
+        <h3>Enter Date</h3>
+        <input type="date" class="dateselector" />
+
+        <button
+          id="add"
+          onclick="
+        addtodo();
+        "
+        >
+          add
+        </button>
+      </div>
+      <h2>Todo list</h2>
+      <div id="lowerbox"></div>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
